@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Coopstar Express - Refatoração Moderna 🚀
 
-## Getting Started
+Este projeto é uma refatoração completa e modernização do site da **Coopstar Express**, transformando uma estrutura legada em uma aplicação web de alta performance utilizando as tecnologias mais recentes do mercado.
 
-First, run the development server:
+## 🛠️ Tecnologias Utilizadas
+
+- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+- **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
+- **Estilização:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animações:** [Framer Motion](https://www.framer.com/motion/)
+- **Ícones:** [Lucide React](https://lucide.dev/)
+- **Imagens:** Otimizadas e geradas por IA para uma estética premium.
+
+## ✨ Principais Funcionalidades
+
+- **Design Responsivo:** Adaptado para dispositivos móveis, tablets e desktop.
+- **Performance Extrema:** Utiliza renderização estática e otimização de imagens do Next.js.
+- **Identidade Visual Preservada:** Foco na cor vermelha da marca (`#CC0000`).
+- **Animações Fluidas:** Transições suaves de scroll e entradas de elementos.
+- **Mapa Integrado:** Google Maps funcional apontando para a sede em Moema.
+- **Formulário de Contato:** Integração direta com o WhatsApp para conversão imediata.
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+
+Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
+
+### Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/gustavocastanha44-lgtm/coopstar-refatorado.git
+   ```
+
+2. Entre no diretório:
+   ```bash
+   cd coopstar-refatorado
+   ```
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+### Desenvolvimento
+
+Para rodar o servidor de desenvolvimento local:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Build para Produção
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Para gerar uma versão otimizada para produção:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+E para iniciar o servidor de produção:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Licença
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto é privado para a Coopstar Express.

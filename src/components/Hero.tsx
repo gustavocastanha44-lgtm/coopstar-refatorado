@@ -11,7 +11,7 @@ function scrollTo(id: string) {
 export default function Hero() {
   return (
     <section id="inicio" style={{ position: 'relative', minHeight: '100vh', display: 'flex', alignItems: 'center', background: '#0a0a0a', overflow: 'hidden' }}>
-      
+
       {/* Background Image */}
       <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
         <Image src="/images/hero-bg.png" alt="Motoboy Coopstar Express em São Paulo" fill priority style={{ objectFit: 'cover', opacity: 0.35 }} sizes="100vw" />
@@ -21,7 +21,7 @@ export default function Hero() {
 
       {/* Content */}
       <div style={{ position: 'relative', zIndex: 1, maxWidth: 1200, margin: '0 auto', padding: '120px 24px 80px', width: '100%' }}>
-        
+
         {/* Badge */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}
           style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(204,0,0,0.15)', border: '1px solid rgba(204,0,0,0.35)', color: '#ff8080', fontSize: 13, fontWeight: 600, padding: '6px 16px', borderRadius: 999, marginBottom: 24 }}>
@@ -43,7 +43,7 @@ export default function Hero() {
         {/* Subtitle */}
         <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }}
           style={{ color: 'rgba(255,255,255,0.75)', fontSize: 18, lineHeight: 1.7, marginBottom: 40, maxWidth: 560 }}>
-          Há mais de 9 anos, a Coopstar Express agiliza os processos das empresas paulistanas com
+          Há mais de 12 anos, a Coopstar Express agiliza os processos das empresas paulistanas com
           motofretes, coletas e entregas especializadas —{' '}
           <strong style={{ color: '#fff' }}>rápido, seguro e confiável.</strong>
         </motion.p>
@@ -74,7 +74,7 @@ export default function Hero() {
           {[
             { icon: Clock, label: 'Atendimento 24h', sub: 'Segunda a Segunda' },
             { icon: MapPin, label: 'São Paulo e Grande SP', sub: 'Capital e Região' },
-            { icon: Shield, label: '9+ Anos no mercado', sub: 'Empresa consolidada' },
+            { icon: Shield, label: '12+ Anos no mercado', sub: 'Empresa consolidada' },
           ].map(({ icon: Icon, label, sub }) => (
             <div key={label} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'rgba(0,0,0,0.45)', backdropFilter: 'blur(12px)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: 14, padding: '12px 16px' }}>
               <div style={{ width: 38, height: 38, background: 'rgba(204,0,0,0.25)', borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>

@@ -1,4 +1,4 @@
-# Coopstar Express - Refatoração Moderna 🚀
+# Coopstar Express - Refatoração
 
 Este projeto é uma refatoração completa e modernização do site da **Coopstar Express**, transformando uma estrutura legada em uma aplicação web de alta performance utilizando as tecnologias mais recentes do mercado.
 
